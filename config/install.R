@@ -1,0 +1,5 @@
+install.packages("readODS")
+install.packages("ggplot2")
+install.packages("gridExtra")
+install.packages("officer")
+install.packages("flextable")
