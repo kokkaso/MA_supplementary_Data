@@ -1,12 +1,13 @@
 # CO₂ Flux Analysis (Supplementary Data)
 
-This repository contains a Jupyter Notebook (`CO2_Flux_Final.ipynb`) for analyzing CO₂ flux data using R.
+This repository contains Jupyter Notebooks used during the master's thesis work for analyzing environmental data using R.
 
 ## 🔗 Open in Binder (Run Online)
 
-You can run the notebook directly in your browser via Binder (no installation needed):
+You can run the notebooks directly in your browser via Binder (no installation needed):
 
-👉 [Click here to launch](https://mybinder.org/v2/gh/kokkaso/MA_supplementary_Data/main?filepath=CO2_Flux_Final.ipynb)
+- [CO₂ Flux Analysis](https://mybinder.org/v2/gh/kokkaso/MA_supplementary_Data/main?filepath=CO2_Flux_Final.ipynb)
+- [DOC Analysis](https://mybinder.org/v2/gh/kokkaso/MA_supplementary_Data/main?filepath=DOC_Analysis.ipynb)
 
 ## 📦 Required R Packages
 
@@ -18,10 +19,11 @@ Binder will automatically install the following packages:
 - flextable
 - officer
 
-These are defined in `install.R` and installed when launching via Binder.
+(Defined in `install.R`)
 
 ## 📁 Files
 
-- `CO2_Flux_Final.ipynb` – The main R Jupyter Notebook
-- `install.R` – List of required R packages
+- `CO2_Flux_Final.ipynb` – CO₂ flux analysis
+- `DOC_Analysis.ipynb` – Dissolved Organic Carbon analysis
+- `install.R` – R packages required for Binder
 - `runtime.txt` – Specifies the R version for Binder
