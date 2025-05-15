@@ -1,7 +1,5 @@
 install.packages("IRkernel")
 IRkernel::installspec(user = FALSE)
-install.packages("IRkernel")
-IRkernel::installspec(user = FALSE)
 install.packages("readODS")
 install.packages("ggplot2")
 install.packages("gridExtra")
